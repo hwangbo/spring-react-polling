@@ -1,4 +1,4 @@
-package com.lilbear.payload;
+package com.lilbear.payload.request;
 
 import javax.validation.constraints.NotBlank;
 

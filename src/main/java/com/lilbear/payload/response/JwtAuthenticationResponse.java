@@ -1,4 +1,4 @@
-package com.lilbear.payload;
+package com.lilbear.payload.response;
 
 public class JwtAuthenticationResponse {
     private String accessToken;

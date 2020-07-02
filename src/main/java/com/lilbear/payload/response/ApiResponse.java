@@ -1,4 +1,4 @@
-package com.lilbear.payload;
+package com.lilbear.payload.response;
 
 public class ApiResponse {
     private Boolean success;
