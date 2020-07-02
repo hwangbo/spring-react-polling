@@ -1,6 +1,7 @@
-package com.lilbear.domain;
+package com.lilbear.domain.user;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.lilbear.domain.DateAudit;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.LastModifiedBy;
 
@@ -12,7 +13,7 @@ import javax.persistence.MappedSuperclass;
         value = {"createdBy", "updatedBy"},
         allowGetters = true
 )
-public abstract class UserDateAudit extends DateAudit{
+public abstract class UserDateAudit extends DateAudit {
     @CreatedBy
     @Column(updatable = false)
     private Long createdBy;

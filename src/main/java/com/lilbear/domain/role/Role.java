@@ -1,4 +1,4 @@
-package com.lilbear.domain;
+package com.lilbear.domain.role;
 
 import org.hibernate.annotations.NaturalId;
 

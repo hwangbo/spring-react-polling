@@ -1,5 +1,7 @@
-package com.lilbear.domain;
+package com.lilbear.domain.user;
 
+import com.lilbear.domain.DateAudit;
+import com.lilbear.domain.role.Role;
 import org.hibernate.annotations.NaturalId;
 
 import javax.persistence.*;

@@ -1,4 +1,4 @@
-package com.lilbear.domain;
+package com.lilbear.domain.role;
 
 public enum RoleName {
     ROLE_USER,
